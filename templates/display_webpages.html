@@ -11,16 +11,22 @@
         <h1>display_webpages</h1>
         <table border="3px">
             <tr>
-                <th>Topic_member</th>
+                <th>Topic_name</th>
                 <th>Name</th>
                 <th>url</th>
                 <th>email</th>
             </tr>
-        {% for wo in webpages %}
+        {% for wo in webpages  %}
             <tr>
-                <td>{{wo.topic_member}}</td>
+                <td>{{wo.topic_name}}</td>
                 <td>{{wo.name}}</td>
                 <td>{{wo.url}}</td>
                 <td>{{wo.email}}</td>
             </tr>
         {% endfor %}
+        </table>
+
+    </center>
+</body>
+</html>
+
